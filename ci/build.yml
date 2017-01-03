@@ -2,10 +2,10 @@
 platform: linux
 
 inputs:
-  - name: mavenhelloworld
+  - name: newmaven
   
 outputs:
   - name: resource-app
   
 run:
-  path: mavenhelloworld/ci/build.sh
+  path: newmaven/ci/build.sh
