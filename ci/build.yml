@@ -1,0 +1,11 @@
+---
+platform: linux
+
+inputs:
+  - name: mavenhelloworld
+  
+outputs:
+  - name: resource-app
+  
+run:
+  path: mavenhelloworld/ci/build.sh
