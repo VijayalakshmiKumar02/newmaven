@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-chmod 777
-set -e -x -u
+
+set -e -x 
 
 
-git clone mavenhelloworld resource-app
+git clone newmaven resource-app
 echo "creating file"
 cd resource-app
 echo "created the file"
